@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Comfortaa';
+}
+.header{
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+.logo{
+    height: 70%;
+    width: 70%;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+header a img{
+    width: 100%;
+}
+.redes{
+    padding-top: 15px;
+    display: flex;
+    justify-content: right;
+}
+.redes a{
+    width: 15%;
+    padding-right: 10px;
+}
+hr{
+    height: 2px;
+    background: rgb(219, 219, 219);
+    border: none;
+}
+.contenedor{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.tituloPrincipal{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.subtituloPrincipal{
+    padding-bottom: 30px;
+}
+.texto{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.divForm{
+    display: block;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-bottom: 20%;
+    border-radius: 5%;
+    box-shadow: 0px 0px 10px 5px rgb(196, 195, 195);;
+}
+.inputs{
+    margin-top: 10%;
+    width: 90%;
+    padding: 5px;
+    border-radius: 20px;
+    border: 3px solid rgb(206, 206, 206);
+    text-align: left;
+    outline: none;
+}
+.textCheck{
+    font-size: 10px;
+    padding-top: 50px;
+    width: 100%;
+    margin-top: 10px;
+}
+.boton{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background: #FF4E17;
+    color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.check{
+    border: 5px solid;
+}
+.somos{
+    background: #FF4E17;
+    color: white;
+}
+.tituloSomos{
+    padding-top: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 100;
+}
+.circulo {
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin:0px auto;
+    display: flex;
+    align-items: center;
+}
+.circulo img{
+    text-align: center;
+    margin:0px auto;
+    width: 50%;
+}
+.tituloForm{
+    font-size: 19px;
+}
+.subtituloForm{
+    font-size: 13px;
+}
+.imgPrincipal{
+    width: 100%;
+}
+.vector{
+    width: 100%;
+}
+h1{
+    color: #FF4E17;
+}
+.quePlan{
+    margin-top: 40px;
+}
+.tituloPlan{
+    font-size: 15px;
+}
+.subTituloPlan{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 10px;
+}
+.h2Planes{
+    color: #FF4E17;
+}
+.tituloSumergete{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.subTituloSumergete{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.rectangulo{
+    width: 70%;
+}
+.subTituloFinal{
+    font-size: 15px;
+}
+.botonFinal{
+    margin-bottom: 20px;
+}
+footer{
+    margin: 5px;
+}
+.textFooter{
+    color: #A9A2A2;
+    display: block;
+    margin: auto;
+}
+
+@media (min-width: 960px) and (max-width: 1264px){
+    .contenedor{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .principal{
+        display: flex;
+    }
+    .imgForm{
+        margin-right: 20px;
+    }
+    .divForm{
+        display: block;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+    .inputs{
+        margin-top: 5%;
+    }
+    .divPray{
+        display: flex;
+    }
+    .tituloSomos{
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 25px;
+    }
+    .contPray p{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .tituloPlan{
+        font-size: 50px;
+    }
+    .subTituloPlan{
+        font-size: 30px;
+        font-weight: 100;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .divImages{
+        display: flex;
+    }
+    .cardIzq{
+        margin-right: 30px;
+    }
+    .cardDer{
+        margin-left: 30px;
+    }
+    .tituloSumergete{
+        font-size: 45px;
+    }
+    .subTituloSumergete{
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 30px;
+    }
+    .rectangulo{
+        width: 50%;
+    }
+    .loremFinal{
+        display: flex;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .imgFinal{
+        width: 50%;
+    }
+    .textoFinal{
+        width: 50%;
+        margin:0px auto;
+    }
+    .subTituloFinal{
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .botonFinal{
+        width: 50%;
+        font-size: 15px;
+    }
+    footer{
+        margin: 10px;
+    }
+    .textFooter{
+        display: block;
+        margin: auto;
+        font-size: 20px;
+        color: #8b8585;
+    }
+}

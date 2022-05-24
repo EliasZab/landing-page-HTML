@@ -169,7 +169,7 @@ footer{
     margin: auto;
 }
 
-@media (min-width: 960px) and (max-width: 1264px){
+@media (min-width: 500px){
     .contenedor{
         margin-left: 10%;
         margin-right: 10%;

@@ -85,6 +85,9 @@ hr{
 .check{
     border: 5px solid;
 }
+.contPray{
+    padding-bottom: 40px;
+}
 .somos{
     background: #FF4E17;
     color: white;
@@ -142,13 +145,17 @@ h1{
 .h2Planes{
     color: #FF4E17;
 }
+.sumergete{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 .tituloSumergete{
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 .subTituloSumergete{
-    font-size: 15px;
+    font-size: 12px;
     margin-bottom: 30px;
 }
 .rectangulo{

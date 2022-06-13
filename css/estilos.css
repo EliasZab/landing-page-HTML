@@ -6,26 +6,28 @@
 }
 .header{
     display: flex;
-    padding-bottom: 10px;
     justify-content: space-between;
 }
 .logo{
-    height: 70%;
-    width: 70%;
-    padding-top: 10px;
-    padding-left: 20px;
+    height: 80%;
+    width: 80%;
 }
-header a img{
-    width: 100%;
-}
-.redes{
-    padding-top: 15px;
+.divLogo{
     display: flex;
     justify-content: right;
+    align-items: center;
+}
+header a img{
+    width: 80%;
+}
+.redes{
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
 .redes a{
     width: 15%;
-    padding-right: 10px;
+    padding-right: 3px;
 }
 hr{
     height: 2px;
@@ -84,6 +86,8 @@ hr{
 }
 .check{
     border: 5px solid;
+    margin-top: 10px;
+    margin-right: 5px;
 }
 .contPray{
     padding-bottom: 40px;
@@ -125,17 +129,23 @@ hr{
 .imgPrincipal{
     width: 100%;
 }
+.vectorNaranja{
+    width: 100%;
+}
 .vector{
     width: 100%;
+    height: 50px;
 }
 h1{
     color: #FF4E17;
 }
 .quePlan{
     margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .tituloPlan{
-    font-size: 15px;
+    font-size: 12px;
 }
 .subTituloPlan{
     margin-top: 10px;
@@ -148,11 +158,14 @@ h1{
 .sumergete{
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 30px;
 }
 .tituloSumergete{
     font-size: 14px;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 .subTituloSumergete{
     font-size: 12px;
@@ -160,6 +173,10 @@ h1{
 }
 .rectangulo{
     width: 70%;
+    margin-bottom: 40px;
+}
+.loremFinal{
+    margin-top: 20px;
 }
 .subTituloFinal{
     font-size: 15px;
@@ -177,6 +194,9 @@ footer{
 }
 
 @media (min-width: 500px) and (max-width: 768px){
+    .redes a{
+        width: 18%;
+    }
     .contenedor{
         margin-left: 10%;
         margin-right: 10%;
@@ -239,6 +259,9 @@ footer{
     .cardDer{
         margin-left: 30px;
     }
+    .sumergete{
+        margin-top: 50px;
+    }
     .tituloSumergete{
         font-size: 25px;
         padding-left: 100px;
@@ -287,6 +310,9 @@ footer{
 }
 
 @media (min-width: 769px){
+    .redes a{
+        width: 18%;
+    }
     .contenedor{
         margin-left: 10%;
         margin-right: 10%;
@@ -374,6 +400,9 @@ footer{
     }
     .h2Planes{
         font-size: 30px;
+    }
+    .sumergete{
+        margin-top: 50px;
     }
     .tituloSumergete{
         font-size: 40px;
